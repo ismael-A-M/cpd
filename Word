@@ -1,0 +1,12 @@
+t=input()
+u=0
+l=0
+for i in t:
+    if i<="Z":
+        u+=1
+    elif i>="a":
+        l+=1
+if u>l:
+    print(t.upper())
+else:
+    print(t.lower())
