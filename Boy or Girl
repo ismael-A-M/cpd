@@ -1,0 +1,6 @@
+t=input().upper()
+c=len(set(t))
+if c%2==0:
+    print("CHAT WITH HER!")
+elif c%2==1:
+    print("IGNORE HIM!")
