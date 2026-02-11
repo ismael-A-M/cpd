@@ -1,0 +1,7 @@
+t,x=map(int,input().split())
+c=0
+while t<=x:
+    t=t*3
+    x=x*2
+    c+=1
+print(c)
