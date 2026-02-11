@@ -1,0 +1,15 @@
+t=int(input())
+f=0
+l=[]
+for i in range(1,t+1):
+    c=int(input())
+    if i==1:
+        l.append(c)
+        f=1
+        continue
+    elif (c!=l[-1]):
+        l.append(c)
+        f+=1
+    else:
+        l.append(c)
+print(f)
