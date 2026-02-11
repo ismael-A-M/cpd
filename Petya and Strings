@@ -1,0 +1,8 @@
+t=input().upper()
+s=input().upper()
+if t>s:
+    print(1)
+elif t<s:
+    print(-1)
+else :
+    print(0)
