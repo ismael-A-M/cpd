@@ -1,0 +1,9 @@
+s=input()
+t=input()
+c=1
+h=0
+for i in range(len(t)):
+    if t[i]==s[h]:
+        h+=1
+        c+=1
+print(c)
