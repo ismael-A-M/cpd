@@ -1,0 +1,13 @@
+t=int(input())
+arr=list(map(int,input().split()))
+p=0
+l=0
+for i in arr:
+    if i==-1:
+        if p>0:
+            p-=1
+        else:
+            l+=1
+    else:
+        p+=i
+print(l)
