@@ -1,0 +1,6 @@
+arr=list(map(int,input().split()))
+t=(input())
+s=0
+for i in t:
+    s+=arr[int(i)-1]
+print(s)
