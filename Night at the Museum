@@ -1,0 +1,8 @@
+t=(input())
+c=min(abs(ord("a")-ord(t[0])),26-abs(ord("a")-ord(t[0])))
+for i in range(len(t)-1):
+    r=abs(ord(t[i])-ord(t[i+1]))
+    l=26-r
+    c+=min(r,l)
+
+print(c)
